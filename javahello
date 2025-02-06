@@ -1,0 +1,99 @@
+Microsoft Windows [Version 10.0.22621.4317]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\Student>javac Hello.java
+error: file not found: Hello.java
+Usage: javac <options> <source files>
+use --help for a list of possible options
+
+C:\Users\Student>cd D:\CSE160723733059
+
+C:\Users\Student>d:
+
+D:\CSE160723733059>javac Hello.java
+Hello.java:5: error: cannot find symbol
+public static void main(Stinrg args[])
+                        ^
+  symbol:   class Stinrg
+  location: class Hello
+Hello.java:7: error: package system does not exist
+system.out.println("Hello world!");
+      ^
+2 errors
+
+D:\CSE160723733059>javac Hello.java
+
+D:\CSE160723733059>java Hello.java
+Hello world!
+
+D:\CSE160723733059>cd D:\CSE160723733059
+
+D:\CSE160723733059>d:
+
+D:\CSE160723733059>javac Hello.java
+Hello.java:5: error: <identifier> expected
+public static void int(String args[])
+                  ^
+Hello.java:5: error: '(' expected
+public static void int(String args[])
+                   ^
+Hello.java:5: error: <identifier> expected
+public static void int(String args[])
+                      ^
+3 errors
+
+D:\CSE160723733059>cd D:\CSE160723733059
+
+D:\CSE160723733059>d:
+
+D:\CSE160723733059>javac Hello.java
+Hello.java:5: error: <identifier> expected
+public static int(String args[])
+                 ^
+1 error
+
+D:\CSE160723733059>cd D:\CSE160723733059
+
+D:\CSE160723733059>d:
+
+D:\CSE160723733059>javac Hello.java
+Hello.java:8: error: missing return statement
+}
+^
+1 error
+
+D:\CSE160723733059>cd D:\CSE160723733059
+
+D:\CSE160723733059>d:
+
+D:\CSE160723733059>javac Hello.java
+
+D:\CSE160723733059>cd System.out.println("Hello world!");
+The system cannot find the path specified.
+
+D:\CSE160723733059>cd D:\CSE160723733059
+
+D:\CSE160723733059>d:
+
+D:\CSE160723733059>javac Hello.java
+
+D:\CSE160723733059>java Hello methodist college
+Hello world!
+methodist
+college
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: Index 2 out of bounds for length 2
+        at Hello.main(Hello.java:10)
+
+D:\CSE160723733059>cd D:\CSE160723733059
+
+D:\CSE160723733059>d:
+
+D:\CSE160723733059>javac Hello.java
+
+D:\CSE160723733059>java Hello methodist college engineering
+Hello world!
+methodist
+college
+engineering
+
+D:\CSE160723733059>

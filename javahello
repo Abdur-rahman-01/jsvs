@@ -1,30 +1,6 @@
 Microsoft Windows [Version 10.0.22621.4317]
 (c) Microsoft Corporation. All rights reserved.
 
-C:\Users\Student>javac Hello.java
-error: file not found: Hello.java
-Usage: javac <options> <source files>
-use --help for a list of possible options
-
-C:\Users\Student>cd D:\CSE160723733059
-
-C:\Users\Student>d:
-
-D:\CSE160723733059>javac Hello.java
-Hello.java:5: error: cannot find symbol
-public static void main(Stinrg args[])
-                        ^
-  symbol:   class Stinrg
-  location: class Hello
-Hello.java:7: error: package system does not exist
-system.out.println("Hello world!");
-      ^
-2 errors
-
-D:\CSE160723733059>javac Hello.java
-
-D:\CSE160723733059>java Hello.java
-Hello world!
 
 D:\CSE160723733059>cd D:\CSE160723733059
 
